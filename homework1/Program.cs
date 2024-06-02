@@ -1,4 +1,10 @@
-﻿static string PrintNumbers(int M, int N)
+﻿// Задайте значения M и N. Напишите программу, которая выведет
+//  все натуральные числа в промежутке от M до N. Использовать 
+//  рекурсию, не использовать циклы.
+
+
+
+static string PrintNumbers(int M, int N)
 {
     if (M == N)
     {
